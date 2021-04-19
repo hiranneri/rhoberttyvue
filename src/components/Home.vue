@@ -36,55 +36,57 @@ export default {
 }
 </script>
 <style scoped>
-.imagem-carousel{
-    height: 700px;
-    width: 500px;
-}
+@media (min-width:600px) {
+    .imagem-carousel{
+        height: 700px;
+        width: 500px;
+    }
 
-#fotoPerfil{
-    width: 500px;
-    height: 500px; 
-    
-}
-.perfil{
-    float: left;
-    padding: 5px;
-    margin-left: 10%;
-    margin-top: 2%;
-    margin-bottom: 5%;
-    max-width: 186px;
-}
-.descricao{
-    margin-top: 2%;
-    display: inline-block;
-    margin-left: 20%;
-}
+    #fotoPerfil{
+        width: 500px;
+        height: 500px; 
+        
+    }
+    .perfil{
+        float: left;
+        padding: 5px;
+        margin-left: 10%;
+        margin-top: 2%;
+        margin-bottom: 5%;
+        max-width: 186px;
+    }
+    .descricao{
+        margin-top: 2%;
+        display: inline-block;
+        margin-left: 20%;
+    }
 
-h1{
-    text-align: center;
-    margin-top: 2%; 
-    margin-bottom: 1%;   
-    font-weight: bold;
-    font-size: 3.5rem;
-}
+    h1{
+        text-align: center;
+        margin-top: 2%; 
+        margin-bottom: 1%;   
+        font-weight: bold;
+        font-size: 3.5rem;
+    }
 
-p{
-    font-weight: bold;
-    font-family: 'Raleway', sans-serif;
-    font-size: 20px;
-    
-}
+    p{
+        font-weight: bold;
+        font-family: 'Raleway', sans-serif;
+        font-size: 20px;
+        
+    }
 
-h2{
-    text-align: justify;   
-}
-.corpo{
-    background-color: white;
-    
-}
-#textoInstagram{
-    text-decoration: solid;
-    color: #00608e;
+    h2{
+        text-align: justify;   
+    }
+    .corpo{
+        background-color: white;
+        
+    }
+    #textoInstagram{
+        text-decoration: solid;
+        color: #00608e;
+    }
 }
 @media (max-width:400px) {
    #fotoPerfil{
@@ -93,6 +95,7 @@ h2{
         margin-left: auto;
         margin-right: auto;
         display: block;
+        margin-top: 10%;
     
     }
     .descricao{
@@ -105,11 +108,16 @@ h2{
         font-weight: bold;
         
     }
+    h1{
+        text-align: center;
+        margin-top: 10%;
+    }
 
     p{
         margin: 25px;
         font-weight: bold;
         font-family: 'Raleway', sans-serif;
+        font-size: 26px;
         
     }
     

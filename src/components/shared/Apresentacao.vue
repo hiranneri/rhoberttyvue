@@ -82,9 +82,10 @@ span{
 @media (max-width:400px) {
  
     .img-logo{
-        float: left;
-        margin-left: 1%;
-        max-width: 300px;
+       
+       margin-left: 8%;
+       display: block;
+       max-width: 300px;
     }
     .iconesContato{
    
