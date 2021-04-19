@@ -1,28 +1,39 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Apresentacao/>
+    <Menu :rotas="routes"/>
+    <transition name="pagina">
+      <router-view></router-view>
+    </transition>
+    <Rodape/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import { routes } from '../router.js';
+import Apresentacao from './components/shared/Apresentacao.vue'
+import Menu from './components/shared/Menu.vue';
+import Rodape from './components/shared/Rodape';
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Apresentacao,
+    Menu,
+    Rodape
+  },
+  data(){
+    return {
+      routes
+    }
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+#app{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+ 
 }
 </style>
