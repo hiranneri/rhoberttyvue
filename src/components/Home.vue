@@ -9,7 +9,7 @@
             <p><br>
                 Formado em nutrição e graduando em Ed. Física venho aqui, ajudar você com algumas dicas, alcançar o corpo tão almejado<br>
                 ou até mesmo tirar algumas dúvidas. <br> <br>       
-                Então se sinta em casa, caso tenha alguma dúvida pode estar me contactanto através dos meios aqui dispostos. <br> <br>
+                Então se sinta em casa, caso tenha alguma dúvida pode estar me contactando através dos meios aqui dispostos. <br> <br>
                 NÃO ESQUEÇA de me seguir lá no <a href="https://www.instagram.com/rhobertty_wt/" target="_blank" id="textoInstagram">Instagram</a>, onde estou tirando dúvidas diariamente.
             </p>
         </div>
