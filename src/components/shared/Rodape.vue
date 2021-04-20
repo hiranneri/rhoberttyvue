@@ -41,7 +41,9 @@ footer{
 
 }
 #imgLogoRodape{
-    height: 250px;
+    height: 130px;
+    margin-top: 5%;
+    width: 150px;
     
 }
 
@@ -52,12 +54,13 @@ footer{
     margin-left: 30px;
 }
 .redes{
-    margin-top: 85px;
+    margin-top: 45px;
 }
 
 .textoFooter{
     margin-left: 10px;
     font-weight: bold;
+    font-size: 15px;
 }
 .imgRedesFooter{
     width: 40px;
@@ -69,8 +72,7 @@ footer{
     #imgLogoFooter{
         margin-left: auto;
         margin-right: auto;
-        display: block;
-       
+        display: block;     
         
     }
     .textoFooter{
@@ -78,6 +80,15 @@ footer{
         margin-left: 10%;
         margin-bottom: 10%;
         display: block;
+    }
+    #imgLogoRodape{
+        height: 130px;
+        margin-top: 5%;
+        width: 150px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        margin-bottom: 10%;
     }
  }
 </style>

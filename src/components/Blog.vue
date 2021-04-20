@@ -4,7 +4,7 @@
         <div class="conteiner">      
             <div class="blog-item">
                 <img src="../assets/img/capa-bloco.webp" alt="" class="capa-bloco">
-                <p class="data-publicacao">Mar 13</p> <br>  
+                <p class="data-publicacao">Mar 13</p>  <br>
                 <p class="titulo-publicacao">1 TITULO TITULO TITULO TITULO TITULO TITULO TITULO</p>
                 <hr> 
                 <img src="../assets/img/comentarios.png" alt="" class="iconeComentario">   
@@ -51,21 +51,24 @@ h1{
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
     font-size: 3.5rem;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
 }
 .conteiner{
     display: grid;
-    grid-template-columns: 600px 600px 600px;
+    grid-template-columns: 350px 350px 350px;
     justify-content: center;
     grid-gap: 0px 20px;
+    grid-gap: 0 15px;
+    grid-template-rows: 330px;
 }
 .data-publicacao{
-    margin-top: 30px;
+    margin-top: 15px;
     margin-left: 15px;
     font-size: 18px;
 }
 .titulo-publicacao{
-    font-size: 28px;
-    font-weight: bold;
+    font-weight: 700;
     margin-left: 10px;
 }
 .blog-item{
@@ -76,6 +79,7 @@ h1{
 }
 .capa-bloco{ 
     width: 100%;
+    height: 40%;
 }
 
 
@@ -84,7 +88,7 @@ h1{
     margin: 5px;
 }
 .iconeComentario{
-    width: 8%;
+    width: 10%;
     margin-left: 8px;
     margin-right: 8px;
 }
@@ -99,17 +103,26 @@ h1{
     }
     h1{
         margin-bottom: 35px;
+        font-size: 35px;
+        text-align: center;
     }
     .conteiner{
         display: grid;
-        grid-template-columns: 400px;
-        grid-template-rows: 300px;
+        grid-template-columns: 350px;
+        grid-template-rows: 280px;
         grid-gap: 2%;
+    }
+    .blog-item{
+        margin-left: 11%;
+    }
+    .capa-bloco{ 
+        height: 50%;
     }
     .data-publicacao{
         margin-top: 15px;
         margin-left: 5px;
-        font-size: 10px;
+        margin-bottom: 40px;
+        font-size: 12px;
         font-weight: bold;
     }
     .titulo-publicacao{
@@ -119,10 +132,5 @@ h1{
         margin-top: -40px;
         margin-bottom: -15px;
     }   
-    #imgLogoFooter{
-        margin-left: auto;
-        margin-right: auto;
-        display: block;
-    }
  }
 </style>

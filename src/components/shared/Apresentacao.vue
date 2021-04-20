@@ -36,18 +36,20 @@ export default {
 }
 .img-logo{
     float: left;
-    margin-left: 15%;
-    max-width: 300px;
+    margin-left: 10%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    max-width: 150px;
 }
 .iconesContato{
    
     display: inline-block;
-    margin-left: 10%;
+    margin-left: 8%;
     margin-top: 3%;
   
 }
 .img-item{
-    width: 50px;
+    width: 30px;
 }
 
 li{
@@ -76,16 +78,16 @@ a:link{
 span{
     margin-left: 10px;
     font-weight: bold;
-    font-size: 26px;
+    font-size: 16px;
 }
 
 @media (max-width:400px) {
  
     .img-logo{
        
-       margin-left: 8%;
+       margin-left: 15%;
        display: block;
-       max-width: 300px;
+       max-width: 250px;
     }
     .iconesContato{
    
@@ -97,7 +99,7 @@ span{
   
     }
     .img-item{
-        width: 50px;
+        width: 35px;
     }
 
     span{

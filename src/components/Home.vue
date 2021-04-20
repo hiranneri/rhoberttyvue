@@ -1,11 +1,10 @@
 <template>
     <div class="home">          
-    <div class="perfil">
-        <img src="../assets/img/foto.png" alt="Rhobertty" id="fotoPerfil">
-    
-    </div>
-        <div class="descricao">
+        <div class="perfil">
+            <img src="../assets/img/foto.png" alt="Rhobertty" id="fotoPerfil">
         
+        </div>
+        <div class="descricao">
             <h1>Seja muito bem vindo ao meu Blog!</h1>
             <p><br>
                 Formado em nutrição e graduando em Ed. Física venho aqui, ajudar você com algumas dicas, alcançar o corpo tão almejado<br>
@@ -14,7 +13,7 @@
                 NÃO ESQUEÇA de me seguir lá no <a href="https://www.instagram.com/rhobertty_wt/" target="_blank" id="textoInstagram">Instagram</a>, onde estou tirando dúvidas diariamente.
             </p>
         </div>
-    </div>
+    </div>        
 </template>
 <script>
 export default {
@@ -37,42 +36,43 @@ export default {
 </script>
 <style scoped>
 @media (min-width:600px) {
+    /*
     .imagem-carousel{
         height: 700px;
         width: 500px;
     }
+    */
 
     #fotoPerfil{
-        width: 500px;
-        height: 500px; 
+        width: 300px;
+        height: 300px; 
         
     }
     .perfil{
         float: left;
-        padding: 5px;
-        margin-left: 10%;
+        margin-left: 3%;
         margin-top: 2%;
         margin-bottom: 5%;
-        max-width: 186px;
+        margin-right: 5%;
+        
     }
+    /*
     .descricao{
         margin-top: 2%;
         display: inline-block;
         margin-left: 20%;
     }
-
+*/
     h1{
         text-align: center;
-        margin-top: 2%; 
-        margin-bottom: 1%;   
         font-weight: bold;
-        font-size: 3.5rem;
+        margin-top: 3%;
     }
 
     p{
-        font-weight: bold;
+        font-weight: 700;
         font-family: 'Raleway', sans-serif;
-        font-size: 20px;
+        font-size: 18px;
         
     }
 
@@ -111,6 +111,7 @@ export default {
     h1{
         text-align: center;
         margin-top: 10%;
+        font-weight: bold;
     }
 
     p{

@@ -40,7 +40,7 @@ export default {
 }
 .menu-central{
     background-color: #8ba8a9b3;
-    height: 70px;   
+    height: 40px;   
 }
 li{
     display: flex;
@@ -56,7 +56,7 @@ a{
     margin-top: 25%;
     color: black;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 15px;
 }
 a:hover{
     color: white;
